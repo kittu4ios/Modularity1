@@ -8,7 +8,7 @@ target 'Modularity1' do
   # Pods for Modularity1
 
 pod 'Alamofire'
-pod 'SwiftyJSON'
+pod 'SwiftyJSON','~> 4.0'
 
 
 end

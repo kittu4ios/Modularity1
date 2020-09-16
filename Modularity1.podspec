@@ -16,7 +16,7 @@ Modularity check for modules. It is module 1.
   s.source_files = 'Modularity1/Modularity1/**/*.{h,m,swift}'
   s.resources = ['Modularity1/**/*.{storyboard,xib,xcassets}']
   s.dependency 'Alamofire'
-  s.dependency 'SwiftyJSON',  '~> 3.1'
+  s.dependency 'SwiftyJSON', '~> 4.0'
 end
 
 
