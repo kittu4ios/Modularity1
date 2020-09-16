@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Modularity1'
-  s.version          = '0.0.3'
+  s.version          = '1.0.0'
   s.summary          = 'Kp modularity test'
  
   s.description      = <<-DESC
@@ -13,10 +13,10 @@ Modularity check for modules. It is module 1.
   s.source           = { :git => 'https://github.com/kittu4ios/Modularity1.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'Modularity1/Modularity1/*.{h,m,swift}'
+  s.source_files = 'Modularity1/Modularity1/**/*.{h,m,swift}'
   s.resources = ['Modularity1/**/*.{storyboard,xib,xcassets}']
-
-
+  s.dependency 'Alamofire'
+  s.dependency 'SwiftyJSON',  '~> 3.1'
 end
 
 
